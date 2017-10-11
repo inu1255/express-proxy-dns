@@ -1,0 +1,18 @@
+{
+  "name": "wall-proxy",
+  "version": "1.0.0",
+  "description": "proxy and get host that you can't visit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/node-mitmproxy/lib/bin/index.js -c node-mitmproxy-config.js"
+  },
+  "author": "inu1255",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "net-ping": "^1.2.1",
+    "node-mitmproxy": "^3.1.0",
+    "request": "^2.83.0"
+  }
+}
